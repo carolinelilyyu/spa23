@@ -1,0 +1,72 @@
+/* import fonts */
+@import url(./fonts.css);
+
+/* import variables */
+@import url(./partials/_variables.css);
+
+
+.name h3{
+    padding-top: 3%;
+    font-weight: 500;
+}
+
+.name h1{
+    font: normal 500 30px/30px var(--custom);
+}
+
+.name h4{
+    font-size: 1.5rem;
+}
+
+.img::before{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    transform: translateY(-10px);
+}
+
+.place h1{
+    padding-top: 3%;
+    font: normal 700 30px/30px var(--custom);
+}
+
+.restaurant img{
+    width: 40vw;
+}
+
+.subscribe-area .subscribe{
+    text-align: center;
+    background-color: lightblue;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.subscribe .subscribe-title h4{
+    font: normal 700 30px/ 30px var(--custom);
+    color: whitesmoke;
+}
+
+.subscribe .subscribe-title p{
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+.subscribe form .input-textbox input{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+
+.btn2 {
+    text-decoration: none;
+    display: inline-block;
+    color:whitesmoke;
+    border: 1px solid whitesmoke;
+    margin: 5rem;
+}
